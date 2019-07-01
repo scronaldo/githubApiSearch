@@ -29,7 +29,6 @@ class App extends Component {
     return (
       this.fetchListCall(this.state.listInput)
     )
-
   }
 
   fetchListCall = async (listInput) => {

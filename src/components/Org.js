@@ -46,7 +46,6 @@ class Org extends Component {
   }
 
 
-
   render() {
 
     const showTest = <p>JUST DO IT! SEARCH!</p>;

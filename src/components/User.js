@@ -60,7 +60,6 @@ const User = (props) => {
             </div>
         </div>
     )
-
 }
 
 
