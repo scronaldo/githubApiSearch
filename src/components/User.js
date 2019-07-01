@@ -42,7 +42,7 @@ const User = (props) => {
                         <div className="card-body">
                             <h5 className="card-title">User card</h5>
                             <p className="card-text">{userData.login}</p>
-                            <a href={userData.url} target='_blank' className="btn btn-primary mb-3">
+                            <a href={userData.html_url} target='_blank' className="btn btn-primary mb-3">
                             Open user GitHub</a>
                             <ul className="list-group list-group-flush">
                                 <li className="list-group-item">Location: {userData.location}</li>
